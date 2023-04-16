@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --no-cors true --port 5000",
-    "dev": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "json-server --watch db.json --no-cors true --port 5000"
   },
   "author": "mridul das",
   "license": "ISC",
